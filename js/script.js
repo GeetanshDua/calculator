@@ -55,7 +55,6 @@ buttons.forEach((button) => {
       result.value += "/";
       canEnter = false;
     } else if (button.classList.contains("percentage") && canEnter) {
-      //percentage
       result.value = result.value / 100;
       canEnter = true;
     } else if (button.classList.contains("resultbtn")) {
